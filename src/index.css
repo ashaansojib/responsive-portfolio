@@ -2,13 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
 .my-container{
     @apply max-w-screen-lg mx-auto
 }
 
 .active{
-    @apply mb-1 md:mb-0 font-medium bg-green-500 px-4 py-2 inline-block text-white rounded-sm;
+    @apply mb-1 md:mb-0 font-medium bg-[#E32E6E] px-4 py-2 inline-block text-white rounded-sm;
 }
 .default{
     @apply mb-1 md:mb-0 font-medium px-4 py-2 inline-block rounded-sm;
+}
+.social-icons{
+    @apply p-3 inline-block rounded-md hover:bg-[#E32E6E] mr-1 bg-slate-100;
+}
+.flex-center{
+    @apply flex justify-center items-center;
+}
+.download-btn{
+    @apply py-2 px-4 font-medium hover:text-white hover:bg-[#E32E6E] rounded-sm  lg:mt-0 mt-2
 }

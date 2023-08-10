@@ -16,7 +16,7 @@ const Nav = () => {
             </NavLink>
             <NavLink
               className={({ isActive }) => (isActive ? "active" : "default")}
-              to="/about"
+              to="/projects"
             >
               Projects
             </NavLink>
@@ -28,7 +28,7 @@ const Nav = () => {
             </NavLink>
           </ul>
           <Link to="#">
-            <button className="py-2 px-4 inline-block font-medium hover:text-white hover:bg-green-500 rounded-sm  lg:mt-0 mt-2">
+            <button className="download-btn">
               Download Resume
             </button>
           </Link>

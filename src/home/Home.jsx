@@ -1,10 +1,10 @@
 import React from 'react';
-import Nav from '../header/Nav';
+import About from '../about/About';
 
 const Home = () => {
     return (
         <div>
-            <Nav />
+            <About />
         </div>
     );
 };

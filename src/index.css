@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-container{
+    @apply max-w-screen-lg mx-auto
+}
+
+.active{
+    @apply mb-1 md:mb-0 font-medium bg-green-500 px-4 py-2 inline-block text-white rounded-sm;
+}
+.default{
+    @apply mb-1 md:mb-0 font-medium px-4 py-2 inline-block rounded-sm;
+}

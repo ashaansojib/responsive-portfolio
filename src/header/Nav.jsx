@@ -1,4 +1,5 @@
 import React from "react";
+import { FaDownload } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
 
 const Nav = () => {
@@ -28,7 +29,7 @@ const Nav = () => {
             </NavLink>
           </ul>
           <Link to="#">
-            <button className="download-btn">
+            <button className="download-btn"><FaDownload></FaDownload> 
               Download Resume
             </button>
           </Link>

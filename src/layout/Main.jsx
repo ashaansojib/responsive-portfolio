@@ -7,7 +7,7 @@ const Main = () => {
     return (
         <div>
             <Nav />
-            <div className='grid grid-cols-3 my-container py-8 gap-2'>
+            <div className='grid grid-cols-3 my-container py-8 gap-4'>
                 <SideBar />
                 <div className='col-span-2'>
                     <Outlet />

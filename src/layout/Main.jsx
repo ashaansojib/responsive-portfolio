@@ -10,7 +10,7 @@ const Main = () => {
       <Nav />
       <div className="grid grid-cols-3 my-container py-8 gap-4">
         <SideBar />
-        <div className="col-span-2 p-4 border">
+        <div className="col-span-2 p-4">
           <Outlet />
           <Footer />
         </div>

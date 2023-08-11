@@ -23,9 +23,9 @@ const Nav = () => {
             </NavLink>
             <NavLink
               className={({ isActive }) => (isActive ? "active" : "default")}
-              to="/skill"
+              to="/resume"
             >
-              Skills
+              Resume
             </NavLink>
           </ul>
           <Link to="#">

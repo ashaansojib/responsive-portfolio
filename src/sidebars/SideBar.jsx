@@ -4,7 +4,7 @@ import { FaFacebookF, FaLinkedinIn, FaGithub, FaTwitter, FaPhoneAlt, FaDownload,
 
 const SideBar = () => {
     return (
-        <aside className='bg-gray-300 pb-2 rounded-lg'>
+        <aside className='bg-gray-100 pb-2 rounded-lg'>
             {/* banner and social section */}
             <div className='flex-center'>
                 <div className='w-[275px] text-center p-6'>

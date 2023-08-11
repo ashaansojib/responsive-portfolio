@@ -1,6 +1,6 @@
 import React from "react";
 import SectionTitle from "../hooks/SectionTitle";
-import { FaWeebly } from "react-icons/fa";
+import { FaDatabase, FaJava, FaNodeJs, FaReact, FaWeebly } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -61,8 +61,33 @@ const About = () => {
       </div>
       {/* technologis */}
       <div className="p-4 bg-slate-100">
-          <h3 className="text-2xl font-semibold">Front-End Developer</h3>
-
+        <h3 className="text-2xl font-semibold text-center">Technologies</h3>
+        <div className="grid grid-cols-6 justify-center items-center gap-3 my-2">
+            <div className="bg-white p-2 ">
+                <div className="flex-center p-2">
+                <FaNodeJs className="text-5xl text-[#509941]" />
+                </div>
+                <p className="text-center font-semibold">NodeJS</p>
+            </div>
+            <div className="bg-white p-2 ">
+                <div className="flex-center p-2">
+                <FaDatabase className="text-5xl text-[#509941]" />
+                </div>
+                <p className="text-center font-semibold">MongoDB</p>
+            </div>
+            <div className="bg-white p-2 ">
+                <div className="flex-center p-2">
+                <FaReact className="text-5xl text-[#509941]" />
+                </div>
+                <p className="text-center font-semibold">NodeJS</p>
+            </div>
+            <div className="bg-white p-2 ">
+                <div className="flex-center p-2">
+                <FaJava className="text-5xl text-[#509941]" />
+                </div>
+                <p className="text-center font-semibold">NodeJS</p>
+            </div>
+        </div>
       </div>
     </div>
   );

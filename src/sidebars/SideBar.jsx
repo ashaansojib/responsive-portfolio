@@ -9,7 +9,7 @@ const SideBar = () => {
             <div className='flex-center'>
                 <div className='w-[275px] text-center p-6'>
                     <img className='overflow-hidden rounded-lg' src="/profile.png" alt="" />
-                    <h2 className='p-2 text-xl font-semibold'>Ashaduzzaman Sojib</h2>
+                    <h2 className='p-2 text-xl font-semibold'>Ashaduzzaman</h2>
                     <h3 className='p-2 font-medium bg-gray-50 rounded-md'>MERN Stack Developer</h3>
                     <div className='pt-4'>
                         <button className='social-icons'><Link target='_blank' to="www.facebook.com/khusbusojib"><FaLinkedinIn></FaLinkedinIn></Link></button>

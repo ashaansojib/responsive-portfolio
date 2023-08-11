@@ -16,7 +16,7 @@ const Resume = () => {
             <h4 className="text-xl">B. A. Honours in English</h4>
             <span>National University - Bangladesh</span>
           </div>
-          <div className="p-4 rounded-md bg-[#FFF4F4] my-3">
+          <div className="p-4 rounded-md bg-[#EEF5FA] my-3">
             <small>January 2023 - June 2023</small>
             <h4 className="text-xl">Complete Web Development Course From </h4>
             <span>Programming Hero</span>
@@ -28,9 +28,20 @@ const Resume = () => {
           </h3>
           <div className="p-4 rounded-md bg-[#FFF4F4] my-3">
             <small>Personal</small>
-            <h4 className="text-xl">Six months of professional coding skills.</h4>
+            <h4 className="text-xl">
+              Six months of professional coding skills.
+            </h4>
             <span>Programming Hero</span>
           </div>
+        </div>
+      </div>
+      {/* working skills */}
+      <div className="bg-slate-100 p-4 grid grid-cols-2 gap-4 justify-between">
+        <div>
+          <p className="flex justify-between items-center text-gray-700">Web Development <span>95%</span></p>
+        </div>
+        <div>
+          <p className="flex justify-between items-center text-gray-700">Web Design <span>95%</span></p>
         </div>
       </div>
     </div>
